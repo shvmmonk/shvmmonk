@@ -32,7 +32,7 @@ I’m a Computer Science student and aspiring backend developer with a strong fo
 
 ### 🛠️ Tech Stack
 
-<img src="https://skillicons.dev/icons?i=html,css,js,php,mysql,python,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,mysql,java,spring-boot,spring,git,github,vscode&theme=dark" />
 
 </div>
 
