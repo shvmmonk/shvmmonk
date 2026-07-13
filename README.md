@@ -17,10 +17,14 @@
 
 ### 🚀 About Me
 
-- 🔭 I'm currently building **[Law-AI](https://github.com/shvmmonk/Law-AI)** — an AI-powered legal assistant for plain-language document analysis
-- 🎮 I designed a **Minecraft-themed developer portfolio** — pixel art UI, loot chests as projects, and flickering torches
-- 🌱 Currently exploring **AI/ML** and applying it to real-world problems
-- ⚡ Fun fact: I like turning boring dashboards into game-like experiences
+I’m a Computer Science student and aspiring backend developer with a strong focus on building practical, real-world applications. I enjoy combining clean engineering with creative design to deliver engaging user experiences.
+
+🔭 Currently building Law-AI — an AI-powered legal assistant that simplifies complex legal documents into plain, understandable language
+🎮 Designed a Minecraft-themed developer portfolio featuring pixel-art UI, interactive loot chests for projects, and immersive visual elements
+🌱 Actively exploring AI/ML and integrating intelligent features into real-world applications
+💻 Skilled in Full Stack Development — HTML, CSS, JavaScript, React (Frontend) and Spring Boot (Backend)
+🧠 Strong foundation in Data Structures & Algorithms (Java) with consistent problem-solving practice
+⚡ I enjoy transforming traditional dashboards into interactive, game-like experiences that enhance user engagement
 
 <br/>
 
