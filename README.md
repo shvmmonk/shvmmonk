@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,100:06B6D4&height=220&section=header&text=Shivam%20Nath%20Goswami&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Building%20things%20with%20code%2C%20one%20commit%20at%20a%20time&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,100:06B6D4&height=220&section=header&text=Shivam%20Nath%20Goswami&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Turning%20Ideas%20Into%20Shipped%20Products&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://github.com/shvmmonk">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Hi+there%2C+I'm+Shivam+%F0%9F%91%8B;Full+Stack+Developer;AI+%26+Web+Enthusiast;Turning+Ideas+Into+Code;Always+Learning+%2C+Always+Building&font=Fira+Code&center=true&width=600&height=50&color=06B6D4&size=25&vCenter=true&pause=1200"/>
+  <img src="https://readme-typing-svg.demolab.com/?lines=Hi+there%2C+I'm+Shivam+%F0%9F%91%8B;Full+Stack+Developer;AI+%2B+Web+Enthusiast;I+build+things+people+actually+use;Always+Learning+%2C+Always+Shipping&font=Fira+Code&center=true&width=600&height=50&color=06B6D4&size=25&vCenter=true&pause=1200"/>
 </a>
 
 <br/>
@@ -17,12 +17,74 @@
 
 ### 🚀 About Me
 
-I’m a Computer Science student and aspiring backend developer with a strong focus on building practical, real-world applications. I enjoy combining clean engineering with creative design to deliver engaging user experiences.
+I'm a Computer Science student and full-stack developer who likes shipping **real, working products** instead of tutorial projects — an AI legal assistant, a fake-news detector, a Minecraft-themed portfolio, and more are all live and in this profile.
 
-🌱 Actively exploring AI/ML and integrating intelligent features into real-world applications
-💻 Skilled in Full Stack Development — HTML, CSS, JavaScript, React (Frontend) and Spring Boot (Backend)
-🧠 Strong foundation in Data Structures & Algorithms (Java) with consistent problem-solving practice
-⚡ I enjoy transforming traditional dashboards into interactive, game-like experiences that enhance user engagement
+- 🧠 Actively building with **AI/ML** — RAG, LLM APIs, and practical AI features (not just prompt demos)
+- 💻 Full Stack: **HTML, CSS, JavaScript, React** (frontend) + **Spring Boot, Java** (backend)
+- 🧮 Strong DSA foundation in Java with consistent problem-solving practice
+- 🎮 I like turning boring dashboards into interactive, game-like experiences (see my Minecraft portfolio below 👇)
+- 📫 Open to **backend / full-stack internship & new-grad roles**
+
+<br/>
+
+### 🎯 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+**⚖️ [Law-AI](https://github.com/shvmmonk/Law-AI)**
+AI legal assistant for India — upload any legal document and get an instant plain-Hindi summary, risk score, red-flag detection, and relevant IPC sections. Built to make legal help accessible where 80% can't afford a lawyer.
+<br/>`HTML` `AI/LLM`
+
+</td>
+<td width="50%">
+
+**📰 [Fake News Detector](https://github.com/shvmmonk/Fake-News-Detector)**
+Full fact-checking platform with article verification, source-credibility scoring, fact-checker roles, evidence tracking, and a real-time dashboard. DBMS coursework project turned into a real system.
+<br/>`PHP` `MySQL` ⭐
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**⛏️ [Minecraft Developer Portfolio](https://github.com/shvmmonk/shvmmonk.github.io)**
+A pixel-art portfolio site — skill inventory as a hotbar, projects as loot chests, contact section as a crafting table, flickering torches & particle effects. **[Live demo →](https://porfolio-gamma-six.vercel.app)**
+<br/>`HTML` `CSS` `JS`
+
+</td>
+<td width="50%">
+
+**🍜 [Local Crave](https://github.com/shvmmonk/Local-Crave)**
+Connects users to hidden local food gems and small shops, delivering authentic flavors while supporting local sellers.
+<br/>`HTML` `CSS` `JS`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**🤖 [AI Chatbot](https://github.com/shvmmonk/ai-chatbot)**
+A conversational chatbot built in Java, exploring intent handling and response generation.
+<br/>`Java`
+
+</td>
+<td width="50%">
+
+**🎬 [Movie Ticket Booking](https://github.com/shvmmonk/Movie-ticket-booking)**
+A ticket booking system with seat selection and booking flow logic.
+<br/>`Java`
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+📌 *More projects: [AI Message Improver](https://github.com/shvmmonk/ai-message-improver) · [Task Tracker CLI](https://github.com/shvmmonk/Task-Tracker-CLI) · [Weather App](https://github.com/shvmmonk/weather-app) · [TicTacToe](https://github.com/shvmmonk/TicTacToe)*
+
+</div>
 
 <br/>
 
@@ -30,7 +92,8 @@ I’m a Computer Science student and aspiring backend developer with a strong fo
 
 ### 🛠️ Tech Stack
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,mysql,java,spring,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,java,spring,mysql,git,github,vscode&theme=dark" />
+
 </div>
 
 <br/>
@@ -67,8 +130,9 @@ I’m a Computer Science student and aspiring backend developer with a strong fo
 ### 🌐 Connect With Me
 
 <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://porfolio-gamma-six.vercel.app"><img src="https://img.shields.io/badge/Portfolio-06B6D4?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 <a href="https://twitter.com/YOUR-TWITTER"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-<a href="https://instagram.com/YOUR-INSTAGRAM"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 
 </div>
 
