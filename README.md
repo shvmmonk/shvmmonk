@@ -25,7 +25,6 @@
 
 I'm a Computer Science student and full-stack developer who likes shipping **real, working products** instead of tutorial projects — an AI legal assistant, a fake-news detector, a Minecraft-themed portfolio, and more are all live and in this profile.
 
-- 🧠 Actively building with **AI/ML** — RAG, LLM APIs, and practical AI features (not just prompt demos)
 - 💻 Full Stack: **HTML, CSS, JavaScript, React** (frontend) + **Spring Boot, Java** (backend)
 - 🧮 Strong DSA foundation in Java with consistent problem-solving practice
 - 🎮 I like turning boring dashboards into interactive, game-like experiences (see my Minecraft portfolio below 👇)
