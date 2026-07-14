@@ -11,6 +11,12 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=shvmmonk&color=6D28D9&style=for-the-badge&label=PROFILE+VIEWS)
 ![Followers](https://img.shields.io/github/followers/shvmmonk?style=for-the-badge&color=06B6D4&labelColor=1e2327)
 
+<br/>
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="450"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:06B6D4&height=4&section=header&animation=fadeIn" width="100%"/>
+
 </div>
 
 ---
@@ -27,7 +33,11 @@ I'm a Computer Science student and full-stack developer who likes shipping **rea
 
 <br/>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:06B6D4&height=3" width="100%"/>
+
 ### 🎯 Featured Projects
+
+<img src="https://readme-typing-svg.demolab.com/?lines=Projects+that+are+actually+deployed+%F0%9F%9A%80&font=Fira+Code&center=true&width=500&height=30&color=6D28D9&size=16&vCenter=true&pause=1500"/>
 
 <table>
 <tr>
@@ -90,9 +100,17 @@ A ticket booking system with seat selection and booking flow logic.
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:06B6D4&height=3" width="100%"/>
+
 ### 🛠️ Tech Stack
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,java,spring,mysql,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,java,spring,mysql,git,github,vscode&theme=dark&perline=10" />
+
+<br/>
+
+<img src="https://progress-bar.dev/85/?title=Java&width=200&color=6D28D9"/> <img src="https://progress-bar.dev/80/?title=JavaScript&width=200&color=06B6D4"/>
+<br/>
+<img src="https://progress-bar.dev/75/?title=React&width=200&color=6D28D9"/> <img src="https://progress-bar.dev/70/?title=Spring%20Boot&width=200&color=06B6D4"/>
 
 </div>
 
@@ -100,7 +118,11 @@ A ticket booking system with seat selection and booking flow logic.
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:06B6D4&height=3" width="100%"/>
+
 ### 📊 GitHub Stats
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shvmmonk&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=06B6D4&line=6D28D9&point=ffffff" width="100%"/>
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=shvmmonk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=06B6D4&icon_color=6D28D9&text_color=c9d1d9"/>
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=shvmmonk&theme=tokyonight&hide_border=true&background=0D1117&ring=06B6D4&fire=6D28D9&currStreakLabel=06B6D4"/>
@@ -111,6 +133,8 @@ A ticket booking system with seat selection and booking flow logic.
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:06B6D4&height=3" width="100%"/>
+
 ### 🏆 Trophies
 
 <img src="https://github-profile-trophy.vercel.app/?username=shvmmonk&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8"/>
@@ -118,6 +142,8 @@ A ticket booking system with seat selection and booking flow logic.
 </div>
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:06B6D4&height=3" width="100%"/>
 
 ### 📈 Contribution Snake
 
@@ -127,7 +153,11 @@ A ticket booking system with seat selection and booking flow logic.
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:06B6D4&height=3" width="100%"/>
+
 ### 🌐 Connect With Me
+
+<img src="https://readme-typing-svg.demolab.com/?lines=Let's+build+something+together+%F0%9F%A4%9D&font=Fira+Code&center=true&width=500&height=30&color=06B6D4&size=16&vCenter=true&pause=1500"/>
 
 <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
