@@ -21,7 +21,7 @@
 I'm a **B.Tech CSE** student at **SRM Institute of Science & Technology** (2024–2028) with a **CGPA of 8.9**. I build backend systems that don't fall over under load — and frontends that don't make users cry.
 
 - 🔭 Currently: **Spring Boot REST APIs · React full-stack apps**
-- 🌱 Learning: **System Design · DSA · Docker · Microservices**
+- 🌱 Learning: **System Design · DSA · Microservices**
 - 🏆 Finalist at **Technova 2026 Hackathon**
 - 🎯 Goal: **Backend/Full-Stack Engineer** building products that matter
 - 📫 Reach me: **shvmnath.monk@gmail.com**
@@ -187,6 +187,6 @@ mindmap
     DSA
       LeetCode
       Problem Solving
-    DevOps
-      Docker
+    Tools
+      Postman
       Git & GitHub
