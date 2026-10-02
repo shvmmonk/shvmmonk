@@ -18,7 +18,7 @@
 
 | | |
 |---|---|
-| **Role** | Backend Developer @ [Flowhipz](https://flowhipz.com) — Spring Boot REST APIs, PostgreSQL/MySQL schemas, JWT auth, webhooks |
+| **Role** | Backend Developer Intern @ [Flowshipz](https://flowshipz.com) — Spring Boot REST APIs, PostgreSQL/MySQL schemas, JWT auth, webhooks |
 | **Education** | B.Tech CSE, SRM Institute of Science & Technology (2024–2028) · **CGPA 8.9** |
 | **Strengths** | Java · Spring Boot · REST API design · SQL · Concurrency · Socket networking · RAG pipelines |
 | **Proof** | 🏆 **SIH Top 8 Finalist** (180+ teams) · 🥈 Technova 2026 National Finalist · 🧩 200+ LeetCode / NeetCode problems |
@@ -82,62 +82,48 @@ flowchart LR
 
 ## 🧱 More Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📡 An Intelligent Eye — Drone GCS</h4>
-      Custom Ground Control Station with low-level <b>UDP/TCP socket</b> networking tuned to reduce video stream packet loss.<br/>
-      <sub><code>Java</code> · <code>Sockets</code> · <code>Networking</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ MultiThreadedFileProcessor</h4>
-      Concurrent file-processing engine built on <code>ExecutorService</code>.<br/>
-      <sub><code>Java</code> · <code>Concurrency</code></sub><br/>
-      <a href="https://github.com/shvmmonk/MultiThreadedFileProcessor">View repo →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>✍️ AI Message Improver</h4>
-      Pure-Java text optimizer using native <code>HttpClient</code> for async LLM calls (Groq) — zero framework overhead.<br/>
-      <sub><code>Java</code> · <code>Async HTTP</code> · <code>Groq</code></sub><br/>
-      <a href="https://github.com/shvmmonk/ai-message-improver">View repo →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🤖 Jarvis — AI Chatbot</h4>
-      Chatbot with persistent session memory, built with Java's built-in <code>HttpClient</code> and zero external libraries.<br/>
-      <sub><code>Java</code> · <code>Groq API</code> · <code>JSON</code></sub><br/>
-      <a href="https://github.com/shvmmonk/ai-chatbot">View repo →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>⚖️ Law-AI — The Legal Times</h4>
-      AI legal assistant for Indian citizens: plain-Hindi summaries, risk scores, red flags and IPC section insights.<br/>
-      <sub><code>JS</code> · <code>Speech AI</code> · <code>Legal Tech</code></sub><br/>
-      <a href="https://github.com/shvmmonk/Law-AI">View repo →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛡️ Fake News Detector</h4>
-      Source-credibility scoring, fact-checker roles and an NLP classification pipeline (&gt;90% accuracy).<br/>
-      <sub><code>PHP</code> · <code>MySQL</code> · <code>NLP</code></sub><br/>
-      <a href="https://github.com/shvmmonk/Fake-News-Detector">View repo →</a>
-    </td>
-  </tr>
-</table>
+### 🏢 Flowshipz — Production Backend Services
+**Problem:** The product needs secure, reliable APIs that talk to the frontend and to third-party services in real time.
+**Solution:** Built and maintained Spring Boot REST APIs with JWT-secured endpoints, relational schemas and webhook handlers.
 
-<details>
-  <summary><b>📦 Even more repos</b></summary>
-  <br/>
+```mermaid
+flowchart LR
+    A[Client App] -->|HTTPS request| B[Spring Boot REST API]
+    B --> C{JWT Auth Filter}
+    C -->|valid token| D[Service Layer]
+    C -->|invalid| X[401 Unauthorized]
+    D --> E[(PostgreSQL / MySQL)]
+    F[Third-party Service] -->|webhook event| G[Webhook Endpoint]
+    G --> D
+    D -->|JSON response| A
+```
 
-  - 🧩 [neetcode-submissions](https://github.com/shvmmonk/neetcode-submissions) — 200+ DSA solutions in Java
-  - 🎮 [Minecraft Portfolio](https://github.com/shvmmonk/shvmmonk.github.io) — pixel-art developer portfolio
-  - 🎬 [Movie Ticket Booking](https://github.com/shvmmonk/Movie-ticket-booking) — OOP, collections, dynamic pricing
-  - 🍔 [Local Crave](https://github.com/shvmmonk/Local-Crave) — discover hidden local food spots
-  - ✅ [Task Tracker CLI](https://github.com/shvmmonk/Task-Tracker-CLI) — CLI task manager with CSV persistence
-  - 👥 [Virtual Meeting App](https://github.com/shvmmonk/virtual-meeting-app) · ☁️ [Weather App](https://github.com/shvmmonk/weather-app) · 🎮 [TicTacToe](https://github.com/shvmmonk/TicTacToe)
+**Highlights:** REST API design · PostgreSQL/MySQL schema design · JWT authentication · Webhook integrations
+**Stack:** `Java` `Spring Boot` `PostgreSQL` `MySQL` `JWT`
 
-</details>
+[![Company](https://img.shields.io/badge/Visit-Flowshipz-10B981?style=for-the-badge)](https://flowshipz.com)
+
+---
+
+### 📡 An Intelligent Eye — Drone GCS
+**Problem:** Live drone video drops frames and lags when the network is unreliable.
+**Solution:** A custom Ground Control Station with low-level socket networking: UDP for the live video stream and TCP for reliable control commands, tuned to reduce packet loss.
+
+```mermaid
+flowchart LR
+    A[Drone Camera] --> B[Video Encoder]
+    B -->|UDP video stream| C[GCS Receiver]
+    C --> D[Packet Buffer and Reassembly]
+    D --> E[Live Video Display]
+    F[Operator Controls] --> G[GCS Command Module]
+    G -->|TCP reliable commands| H[Drone Controller]
+    H -->|TCP telemetry| G
+```
+
+**Highlights:** UDP/TCP socket protocols · Packet-loss mitigation for video · Custom Ground Control Station
+**Stack:** `Java` `UDP/TCP Sockets` `Networking`
+
+[![Repo](https://img.shields.io/badge/View_Profile-181717?style=for-the-badge&logo=github)](https://github.com/shvmmonk)
 
 ---
 
@@ -155,10 +141,6 @@ flowchart LR
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=shvmmonk&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shvmmonk&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shvmmonk&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
