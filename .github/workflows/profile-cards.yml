@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '17 3 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'scripts/**'
+      - '.github/workflows/profile-cards.yml'
 permissions:
   contents: write
 jobs:
