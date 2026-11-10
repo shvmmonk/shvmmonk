@@ -1,0 +1,33 @@
+name: Refresh animated profile cards
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install font subsetting tool
+        run: pip install -r requirements.txt
+      - name: Fetch verified contribution calendar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: shvmmonk
+        run: python scripts/fetch_contributions.py
+      - name: Render SVG cards
+        run: python scripts/render_readme_cards.py
+      - name: Commit updated contribution data and cards
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cards/ data/contributions.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh profile activity cards'
+            git push
+          fi

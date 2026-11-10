@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="244" viewBox="0 0 280 244" role="img"><style>
+    .fade{opacity:0;animation:rise .65s ease forwards;}
+    .pixel{opacity:0;animation:appear .28s steps(1,end) forwards;}
+    .bar{transform:scaleY(0);transform-box:fill-box;transform-origin:center bottom;animation:grow .7s cubic-bezier(.2,.9,.25,1) forwards;}
+    .shine{animation:glow 3s ease-in-out infinite;}
+    .float{animation:float 3.4s ease-in-out infinite;}
+    @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes appear{to{opacity:1}}
+    @keyframes grow{to{transform:scaleY(1)}}
+    @keyframes glow{0%,100%{opacity:.75}50%{opacity:1}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;opacity:1!important;transform:none!important;}}
+    </style>
+    <rect x="0" y="0" width="280" height="244" rx="14" fill="#111827" /><rect x="2" y="2" width="276" height="240" rx="12" fill="none" stroke="#374151" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="244" rx="0" fill="#f5c400" /><rect x="23" y="25" width="76" height="76" rx="8" fill="#f5c400" /><text x="42" y="79" fill="#0a0e1a" font-family="Pixel, monospace" font-size="35" >02</text><g class="fade" style="animation-delay:3.45s"><text x="23" y="145" fill="#f3f4f6" font-family="Pixel, monospace" font-size="30" >LEARN</text></g><g class="fade" style="animation-delay:3.63s"><text x="23" y="186" fill="#abb9cf" font-family="Terminal, monospace" font-size="23" >DSA &amp; systems</text></g><text x="252" y="226" fill="#f5c400" font-family="Terminal, monospace" font-size="28" >↗</text></svg>
