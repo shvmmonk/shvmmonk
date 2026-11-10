@@ -21,7 +21,9 @@ if 'errors' in data or not data.get('data',{}).get('user'):
     raise SystemExit('GitHub GraphQL returned an error: '+str(data.get('errors')))
 weeks=data['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
 days=[{'date':d['date'],'count':d['contributionCount']} for week in weeks for d in week['contributionDays']]
-file=Path(__file__).resolve().parent/'data'/'contributions.json'
+here=Path(__file__).resolve().parent
+repo=here.parent if here.name=='scripts' else here
+file=repo/'data'/'contributions.json'
 file.parent.mkdir(parents=True,exist_ok=True)
 file.write_text(json.dumps({'username':user,'updated_at':today.isoformat(),'days':days},indent=2)+'\n')
 print('Fetched',len(days),'days for',user)
