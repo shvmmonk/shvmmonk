@@ -13,7 +13,8 @@ from urllib.request import Request, urlopen
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent if HERE.name == 'scripts' else HERE
 CARDS = ROOT / 'cards'
 DATA = ROOT / 'data' / 'contributions.json'
 CARDS.mkdir(exist_ok=True)
