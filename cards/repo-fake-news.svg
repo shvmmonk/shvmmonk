@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="190" viewBox="0 0 860 190" role="img"><style>
+    .fade{opacity:0;animation:rise .65s ease forwards;}
+    .pixel{opacity:0;animation:appear .28s steps(1,end) forwards;}
+    .bar{transform:scaleY(0);transform-box:fill-box;transform-origin:center bottom;animation:grow .7s cubic-bezier(.2,.9,.25,1) forwards;}
+    .shine{animation:glow 3s ease-in-out infinite;}
+    .float{animation:float 3.4s ease-in-out infinite;}
+    @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes appear{to{opacity:1}}
+    @keyframes grow{to{transform:scaleY(1)}}
+    @keyframes glow{0%,100%{opacity:.75}50%{opacity:1}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;opacity:1!important;transform:none!important;}}
+    </style>
+    <rect x="0" y="0" width="860" height="190" rx="14" fill="#111827" /><rect x="2" y="2" width="856" height="186" rx="12" fill="none" stroke="#374151" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="190" rx="0" fill="#4dd9e8" /><rect x="27" y="22" width="59" height="59" rx="8" fill="#00c85a" /><text x="40" y="63" fill="#0a0e1a" font-family="Pixel, monospace" font-size="25" >03</text><g class="fade" style="animation-delay:4.50s"><text x="107" y="61" fill="#f3f4f6" font-family="Pixel, monospace" font-size="26" >Fake News Detector</text></g><g class="fade" style="animation-delay:4.65s"><text x="29" y="119" fill="#abb9cf" font-family="Terminal, monospace" font-size="24" >An exploration of machine learning for news classification</text></g><text x="29" y="164" fill="#00c85a" font-family="Terminal, monospace" font-size="22" >PYTHON  /  MACHINE LEARNING</text><text x="801" y="166" fill="#00c85a" font-family="Terminal, monospace" font-size="25" >↗</text></svg>
